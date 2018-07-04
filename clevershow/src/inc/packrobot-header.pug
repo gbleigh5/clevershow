@@ -1,0 +1,21 @@
+.content-header.product-header.clearfix.pb-3
+  h4.title.float-left #{title}
+
+  .btn-group.float-right.d-flex(role='group', aria-label='')
+
+    .dropdown
+      button.btn.btn-info.mr-3.dropdown-toggle#dropdownMenuFlowchart(href="#", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Flowchart
+      .dropdown-menu(aria-labelledby="dropdownMenuFlowchart")
+        a.dropdown-item(download="download") Download PDF
+
+    .dropdown
+      button.btn.btn-info.mr-3.dropdown-toggle#dropdownMenuCompare(href="#", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Compare
+      .dropdown-menu(aria-labelledby="dropdownMenuCompare")
+        a.dropdown-item(href="compare.html") 18.5
+        a.dropdown-item(href="compare.html") 18.3
+        a.dropdown-item 18.1
+        a.dropdown-item 17.5
+        a.dropdown-item 17.3
+        a.dropdown-item 17.1
+
+    a.btn.btn-info.mr-3(href="prototype.html") Clickable Prototype

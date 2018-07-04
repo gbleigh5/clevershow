@@ -1,0 +1,15 @@
+extends inc/header.pug
+
+block append config
+  - var title = "Clickable Prototype"
+
+block content
+  div.container-fluid.packrobot-page
+    include inc/aside.pug
+
+    section.content.products.col-lg-8.col-md-8.col-sm-12.col-xs-12.offset-sm-0.offset-xs-0offset-md-3.pt-3
+      include inc/packrobot-header
+      main.w-100.position-relative(data-ride='carousel')
+        .row
+          article.col-md-12.col-sm-12.col-xs-12
+            iframe.embed(src="images/134_Sample_Chapter.pdf")

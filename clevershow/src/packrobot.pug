@@ -1,0 +1,29 @@
+extends inc/header.pug
+
+block append config
+  - var title = "Viewing screen: Thank you"
+  - var body_class = "product-page"
+
+block content
+  include inc/mobile-aside
+
+  div.container-fluid.packrobot-page
+    include inc/aside.pug
+
+    section.content.products.col-lg-8.col-md-8.col-sm-12.col-xs-12.offset-sm-0.offset-xs-0.offset-md-3.pt-3
+      include inc/packrobot-header
+      main.carousel.slider.w-100.position-relative(data-ride='carousel')
+        select#lang-select.lang-select.custom-select.position-absolute(name='lang-select')
+          option(value='english') ENGLISH
+          option(value='french') FRENCH
+          option(value='spanish') SPANISH
+        ul
+          li.slide.d-flex.flex-nowrap.flex-column.justify-content-center.align-items-center.active
+            h4.slide-title Thank you for using PackRobot
+            img.d-block(src='images/like-heart-symbo.png', alt='')
+          li.slide.d-flex.flex-nowrap.flex-column.justify-content-center.align-items-center
+            h4.slide-title The greatest invention ever made
+            img.d-block(src='images/like-heart-symbo.png', alt='')
+          li.slide.d-flex.flex-nowrap.flex-column.justify-content-center.align-items-center
+            h4.slide-title PackRobot thanks you
+            img.d-block(src='images/like-heart-symbo.png', alt='')

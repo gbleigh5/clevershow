@@ -1,3 +1,3 @@
 # CLEVERSHOW PROJECT
 
-Little project for comparing a device versions, with bootstrap as the backend
+Little project for comparing a device's versions, with bootstrap for the UI, Angular for the Frontend and NodeJS as the server

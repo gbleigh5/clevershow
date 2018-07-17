@@ -1,0 +1,14 @@
+[
+  {
+    "device_slug": "packrobot",
+    "versions": [
+      18.5,18.3,18.1
+    ]
+  },
+  {
+    "device_slug": "cleverbox",
+    "versions": [
+      18.5,18.3,18.1
+    ]
+  }
+]

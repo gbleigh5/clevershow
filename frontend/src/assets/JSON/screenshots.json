@@ -1,0 +1,35 @@
+[
+
+  {
+    "device_slug":"packrobot",
+    "device_name": "PackRobot",
+    "version_screens": {
+      "version_number": 18.5,
+      "screenshots": [
+        {
+          "screenshot_url": "assets/images/screens/screen1.jpg",
+          "category": "Screensave"
+        },
+        {
+          "screenshot_url": "assets/images/screens/screen1.jpg",
+          "category": "Insert Parcel"
+        }
+      ]
+    }
+  },
+
+  {
+    "device_slug":"cleverbox",
+    "device_name": "CleverBox",
+    "version_screens": {
+      "version_number": 18.3,
+      "screenshots": [
+        {
+          "screenshot_url": "assets/images/screens/screen2.jpg",
+          "category": ""
+        }
+      ]
+    }
+  }
+
+]

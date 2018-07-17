@@ -1,0 +1,317 @@
+body {
+  background-color: #e9ecef;
+}
+
+/** NAVBAR **/
+nav.header {
+  box-shadow: 0px 2px 3px #ccc;
+}
+.user-icon {
+  color: #111;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+nav .brand {
+  font-size: .7em;
+}
+.user-icon .fa {
+  font-size: 1.5em
+}
+.account-drop {
+  top: 100%;
+  right: 0;
+}
+.account-drop li {
+  padding: .5rem 2rem;
+}
+.version-img {
+  height:  33px;
+}
+.product-page .aside-mob {
+  display: block!important;
+}
+
+
+/** HOME CONTENT **/
+.home-content  h3 {
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.home-content .row {
+  margin: 0;
+  margin-bottom: 2em;
+}
+.product-select .product {
+  border-right: 2px solid #BDBDBD;
+}
+.product-select .product > * {
+  margin-bottom: 1em;
+}
+.product-select .product:last-child {
+  border-right: 0px;
+}
+.product-select .product h3 {}
+.product-select .product img {
+  max-height: 150px;
+}
+.product-select .product .btn {
+  background-color: transparent;
+  color: #007bff;
+  border-width: 2px;  
+}
+.product-select .product .btn:hover,
+.product-select .product .btn:focus {
+  border-color: #111;
+  color: #111;
+}
+
+
+/** Pack Robot Page **/
+.packrobot-page {
+  padding-left: 0;
+}
+
+/** Aside **/
+.packrobot-page .aside {
+  background-color: #fafafa;
+  padding: 10px 20px;
+  height: 100vh;
+  box-shadow: 1px 0px 3px #ccc;
+}
+.packrobot-page .aside .top {
+  margin-bottom: 1.5em;
+}
+.packrobot-page .aside .top img {
+  width: 100%;
+  min-height: 80px;
+  min-width: 50px;
+}
+.packrobot-page .aside .top .version .number,
+.aside-mob .number {
+  border: 0;
+  background-color: transparent;
+}
+.packrobot-page .aside .top .version .number {
+  font-size: 1.5em;
+}
+.packrobot-page .aside .top .version span {
+  font-size: .8em;
+}
+
+.packrobot-page .aside .top .version span .dropdown-toggle::after {
+  display: none;
+}
+
+.packrobot-page .aside .middle .error-cases {
+  font-size: .8rem;
+}
+
+.packrobot-page .aside .list {}
+.packrobot-page .aside .list .head-screens {
+  font-weight: normal;
+  color: #757575;
+  border-bottom: 2px solid #757575;
+}
+.packrobot-page .aside .list .screens {
+  list-style: none;
+  padding-left: 0
+}
+.packrobot-page .aside .list .footer-thanks {
+  color: #03a9f4;
+  border-bottom: 2px solid #03a9f4;
+}
+
+/** Content **/
+.content-header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em !important;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em;
+}
+.packrobot-page .btn {}
+.packrobot-page .btn:hover,
+.packrobot-page .btn:focus {
+  opacity: .8;
+}
+
+/** Versions **/
+.packrobot-versions {}
+.packrobot-versions .jumbotron {}
+.packrobot-versions .product-select article {
+  max-height: 300px;
+  height: 300px;
+  margin-bottom: 1em;
+}
+.packrobot-versions .product-select article .slide {
+  padding-top: 1em;
+  height: 100%;
+}
+.packrobot-versions .product-select article .slide .version {
+  top: 5px;
+  left: 5px;
+}
+
+
+/** Version Page **/
+.packrobot-page .slider {
+  margin: auto;
+  margin-top: 2em;
+  max-height: 25em;
+  max-width: 47.5em;
+  height: 25em;
+  border: 1px solid #616161;
+}
+
+.slide {
+  background-color: #fff;
+  border: 1px solid #616161;
+  border-radius: 5px;
+  height: 25em;
+}
+
+.slide .slide-title {
+  margin-bottom: 1.5em;
+}
+
+.packrobot-page .unslider {
+  position: relative;
+}
+
+.packrobot-page .slide-btns {
+  top: 40%;
+}
+
+.packrobot-page .slide-btns {
+  color: #111;
+  font-size: 5em;
+}
+
+.packrobot-page .prev-slide {
+  left: 95%;
+}
+
+.packrobot-page .next-slide {
+  right: 95%;
+}
+
+.packrobot-page .lang-select {
+  right: .5em;
+  width: auto;
+  top: .5em;
+}
+
+.packrobot-page .slide {
+  padding-top: 3em;
+}
+
+.packrobot-page .slide .caption {
+  font-weight: normal;
+}
+
+.packrobot-page .slide img {
+  max-height: 100px;
+}
+
+.packrobot-page iframe {
+  width: 100%;
+  max-width: 768px;
+  height: 500px;
+  max-height: 450px;
+}
+
+/** MEDIA QUERIES **/
+/**
+  Extra small devices (portrait phones, less than 576px)
+  No media query for `xs` since this is the default in Bootstrap
+**/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .offset-md-3 {
+    margin-left: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .offset-md-3 {
+    margin-left: 25%;
+  }
+  .aside-mob {
+    display: none;
+  }
+  .aside-large {
+    display: block !important;
+  }
+  .aside .top .version span {
+    font-size: 1em;
+  }
+  .aside .list,
+  .aside .list h6 {
+    font-size: .9em
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .aside .top .version span {
+    font-size: 1.3em;
+  }
+  .aside .list,
+  .aside .list h6 {
+    font-size: 1em;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .aside-mob {
+    display: flex!important;
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    z-index: 100;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .aside-mob .form-inline {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .aside-mob ~ .packrobot-page {
+    padding-top: 5em;
+  }
+
+  .aside-mob .screens {
+    flex-flow: row wrap;
+  }
+  .aside-mob .screens .list-group-item {
+    width: 48%;
+  }
+  .content.products,
+  .content.packrobot-page .container,
+  .content.products .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .content-header.product-header .btn-group {
+    float: left!important;
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 480px) {
+  .aside-mob .screens .list-group-item {
+    width: 100%;
+  }
+}

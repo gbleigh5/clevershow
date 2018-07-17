@@ -1,0 +1,21 @@
+<nav class="header navbar position-relative navbar-expand-lg navbar-dark bg-dark"><a class="navbar-brand" routerLink="/"><img class="logo" src="assets/images/cleveron-logo-white.png"/><span class="brand"> Version History Tool</span></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-control="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" *ngFor="let d of devices"><a class="nav-link" routerLink="/{{d.slug}}" routerLinkActive="active" >{{d.name}}</a></li>
+    </ul>
+
+    <a class="user-icon d-flex flex-nowrap flex-column justify-content-center align-items-center" href="#" (click)="showDrop(false)"><i class="fa fa-user"></i></a>
+
+    <ul class="account-drop position-absolute list-group d-none" [ngClass]="{'d-block': open==true}">
+      <li class="list-group-item"><a href="#">Sign In</a></li>
+      <li class="list-group-item"><a href="#">Sign Up</a></li>
+      <li class="list-group-item"><a href="index.html">Visitors</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

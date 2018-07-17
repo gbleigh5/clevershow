@@ -1,0 +1,23 @@
+    <section class="content packrobot-page packrobot-versions pb-3">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h3 class="display-5 text-center">Choose a<b> {{device_name}}</b> version</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="product-select row d-flex justify-content-start align-items-center">
+
+          <article class="col-md-4 col-sm-6" *ngFor="let v of versions">
+            <div class="slide position-relative d-flex flex-nowrap flex-column justify-content-center align-items-center"><a class="version btn btn-primary text-center position-absolute" routerLink="/{{device_name}}/v/{{v}}">{{v}}</a>
+              <select class="lang-select custom-select position-absolute" id="lang-select" name="lang-select">
+                <option value="english">ENGLISH</option>
+                <option value="french">FRENCH</option>
+                <option value="spanish">SPANISH</option>
+              </select>
+              <p class="slide-title">Thank you for using {{device_name}}</p><img class="d-block" src="assets/images/like-heart-symbo-nobg.png" alt=""/>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,14 @@
+<section class="content home-content">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-5 text-center">Choose a device</h1>
+    </div>
+  </div>
+
+  <div class="product-select row d-flex justify-content-center align-items-center">
+    <div class="product col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex flex-nowrap flex-column justify-content-center align-items-center" *ngFor="let d of devices">
+      <h3 class="home-title display-5 text-center">{{d.device_name}}</h3><img [src]="d.device_image" alt="PackRobot"/><a class="btn btn-primary d-block" routerLink="/{{d.device_slug}}">CHOOSE</a>
+    </div>
+
+  </div>
+</section>

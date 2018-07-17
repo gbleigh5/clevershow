@@ -1,0 +1,17 @@
+[
+  {
+    "device_slug": "packrobot",
+    "device_name": "PackRobot",
+    "device_image": "assets/images/devices/PackRobot.png"
+  },
+  {
+    "device_slug": "cleverbox",
+    "device_name": "CleverBox",
+    "device_image": "assets/images/devices/CleverBox.png"
+  },
+  {
+    "device_slug": "cleverflex",
+    "device_name": "CleverFlex",
+    "device_image": "assets/images/devices/Flex.png"
+  }
+]
